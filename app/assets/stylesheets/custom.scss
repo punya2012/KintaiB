@@ -23,6 +23,12 @@ textarea {
   margin-bottom: 10px;
 }
 
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+}
+
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,6 +40,8 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
 
 h2 {
@@ -52,21 +60,61 @@ p {
 
 /* ヘッダー */
 
+.navbar {
+  background-color: blue;
+}
+
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  font-style: italic;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: gray;
   text-decoration: none;
 }
+
+#list {
+  color: #fff;
+  font-weight: bold;
+}
+
+#list:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+#dropdown-title {
+  color: #fff;
+  background-color: blue;
+  font-weight: bold;
+}
+
+#dropdown-title:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.dropdown-toggle {
+  color: #fff;
+  background-color: blue;
+  font-weight: bold;
+}
+
+.dmcategoly {
+  color: black;
+  background-color: #eee;
+}
+
+
 
 /* デバッグウインドウ */
 
@@ -96,3 +144,4 @@ p {
     color: $state-danger-text;
   }
 }
+
